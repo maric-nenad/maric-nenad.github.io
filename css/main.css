@@ -11,6 +11,14 @@
     display: inline-block;
 }
 
+.profile-image {
+    height: 160px;
+    width: 160px;
+    /* display: block;
+    margin: auto; */
+
+}
+
 @media only screen and (min-width: 600px) {
     /* For tablets: */
     .col-m-1 {width: 8.33%;}
@@ -61,10 +69,6 @@ body {
     font-weight:bolder;
 }
 
-.profile-image {
-    height: 100px;
-    width: 100px;
-}
  .wrapper{
     margin-top: 25px;
     padding-left: 50px;
