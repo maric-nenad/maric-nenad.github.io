@@ -34,8 +34,8 @@
     .col-m-11 {width: 91.66%;}
     .col-m-12 {width: 100%;}
 
-    .job-period-desktop {display: block;}
-    .job-period-phone-tablet {display: none;}
+    /* .job-period-desktop {display: block;}
+    .job-period-phone-tablet {display: none;} */
 }
 @media only screen and (min-width: 768px) {
     /* For desktop: */
