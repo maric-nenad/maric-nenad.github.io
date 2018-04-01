@@ -1,3 +1,9 @@
+/*bootstrap class edit*/
+.row {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
