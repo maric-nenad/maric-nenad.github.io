@@ -1,7 +1,7 @@
-/*bootstrap class edit*/
+
 .row {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 /* For mobile phones: */
@@ -25,7 +25,7 @@
 
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px) {
     /* For tablets and small res: */
     .col-m-1 {width: 8.33%;}
     .col-m-2 {width: 16.66%;}
@@ -40,9 +40,25 @@
     .col-m-11 {width: 91.66%;}
     .col-m-12 {width: 100%;}
 
-     .job-period-desktop {display: none;}
+    .job-period-desktop {display: none;}
     .job-period-phone-tablet {display: inline-block;} 
+    
+    .row {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .wrapper{
+        margin-top: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .content-left {
+        padding-right: 10px
+    } 
 }
+
 @media only screen and (min-width: 1280px) {
     /* For desktop: */
     .col-1 {width: 8.33%;}
@@ -60,6 +76,21 @@
 
     .job-period-desktop {display: block;}
     .job-period-phone-tablet {display: none;}
+
+    .row {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .wrapper{
+        margin-top: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .content-left {
+        padding-right: 50px
+    }
 }
 
 * {
@@ -73,16 +104,6 @@ body {
 .name {
     font-size: 40px;
     font-weight:bolder;
-}
-
- .wrapper{
-    margin-top: 25px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-.content-left {
-    padding-right: 50px
 }
 
 .ico {
