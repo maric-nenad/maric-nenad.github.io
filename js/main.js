@@ -13,4 +13,14 @@ $(document).ready(function(){
             $(this).text('More..')
         }
     });
+
+    $('.dropdown-menu a:first-child').click(function(){   
+        $('.more-details-link').css("visibility", "hidden");
+    })
+
+    $('.dropdown-menu a:last-child').click(function(){   
+        $('.more-details-link').click();
+        $('.more-details-link').css("visibility", "hidden");
+        $('.page-break-long').css("page-break-before", "always");
+    })
 });
