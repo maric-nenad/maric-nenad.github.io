@@ -39,10 +39,11 @@ $(document).ready(function(){
     };
       
     //DevOps
+    var replaceText = "";
     var devOpsStart = new Date(2018, 2, 19);
     var devOpsExp = calculateExperience(devOpsStart);
 
-    var replaceText = document.getElementById("devops-exp");
+    replaceText = document.getElementById("devops-exp");
     replaceText.innerHTML = devOpsExp;
 
     //DBA/DBD
@@ -50,7 +51,7 @@ $(document).ready(function(){
     var dbaEnd = new Date(2018, 2, 19);
     var dbaExp = calculateExperience(dbaStart, dbaEnd);
 
-    var replaceText = document.getElementById("dba-exp");
+    replaceText = document.getElementById("dba-exp");
     replaceText.innerHTML = dbaExp;
 
     $('[data-toggle="tooltip"]').tooltip(); 
