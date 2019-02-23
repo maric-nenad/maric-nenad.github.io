@@ -4,6 +4,10 @@
     padding-right: 5px;
 }
 
+body {
+    background-color: blue;
+}
+
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
