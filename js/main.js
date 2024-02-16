@@ -37,22 +37,6 @@ $(document).ready(function(){
         h = h % 24;
         return { d: d, h: h, m: m, s: s }
     };
-      
-    //DevOps
-    var replaceText = "";
-    var devOpsStart = new Date(2018, 2, 19);
-    var devOpsExp = calculateExperience(devOpsStart);
-
-    replaceText = document.getElementById("devops-exp");
-    replaceText.innerHTML = devOpsExp;
-
-    //DBA/DBD
-    var dbaStart = new Date(2009, 9, 1);
-    var dbaEnd = new Date(2018, 2, 19);
-    var dbaExp = calculateExperience(dbaStart, dbaEnd);
-
-    replaceText = document.getElementById("dba-exp");
-    replaceText.innerHTML = dbaExp;
 
     $('[data-toggle="tooltip"]').tooltip(); 
 
